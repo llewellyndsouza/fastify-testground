@@ -1,0 +1,22 @@
+{
+  "name": "fastify-testground",
+  "version": "1.0.0",
+  "description": "A testground for fastify capabilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/llewellyndsouza/fastify-testground.git"
+  },
+  "keywords": [
+    "fastify"
+  ],
+  "author": "Llewellyn Dsouza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llewellyndsouza/fastify-testground/issues"
+  },
+  "homepage": "https://github.com/llewellyndsouza/fastify-testground#readme"
+}
