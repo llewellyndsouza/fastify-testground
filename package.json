@@ -4,7 +4,8 @@
   "description": "A testground for fastify capabilities",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/llewellyndsouza/fastify-testground/issues"
   },
-  "homepage": "https://github.com/llewellyndsouza/fastify-testground#readme"
+  "homepage": "https://github.com/llewellyndsouza/fastify-testground#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "fastify": "^3.20.1"
+  }
 }
